@@ -20,6 +20,11 @@ const app = () => {
             <Text style={styles.buttonText}>Explore</Text>
           </Pressable>
         </Link>
+        <Link href="/menu" style={{ marginHorizontal: "auto" }}>
+          <Pressable style={styles.button}>
+            <Text style={styles.buttonText}>Menu</Text>
+          </Pressable>
+        </Link>
       </ImageBackground>
     </View>
   );
